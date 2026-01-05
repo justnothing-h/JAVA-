@@ -17,6 +17,7 @@ public class sumrec {
         System.out.println("Enter the value you want to ulternate plus minus:- ");
         int n= sc.nextInt();
         System.out.println(seriesofsum(n));
+        sc.close();
 
     }
 }

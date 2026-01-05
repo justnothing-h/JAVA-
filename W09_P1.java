@@ -1,4 +1,4 @@
-public class W09_P1 {
+
     import java.util.Scanner;
 
 public class W09_P1 {
@@ -41,4 +41,4 @@ public class W09_P1 {
         sc.close();
     }
 }
-}
+

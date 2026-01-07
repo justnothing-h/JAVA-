@@ -101,6 +101,7 @@ public class FlightManagementSystem {
         System.out.println("\n");
     }
 
+    
     private static void generateETicket(String name, Flight f) {
         String fileName = name.replace(" ", "_") + "_Ticket.txt";
         try (FileWriter writer = new FileWriter(fileName)) {

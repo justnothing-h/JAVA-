@@ -1,3 +1,15 @@
+/*
+Mini Project: Flight Management System
+Team Members:
+1. Harshit Choudhary (0818CS241121)
+2. Kartavya Agrawal (0818CS241150)
+3. Indravath Uday Kiran (0818CS241135)
+*/
+
+
+
+
+
 package javaprograms;
 
 import java.util.*;
@@ -101,7 +113,7 @@ public class FlightManagementSystem {
         System.out.println("\n");
     }
 
-    
+
     private static void generateETicket(String name, Flight f) {
         String fileName = name.replace(" ", "_") + "_Ticket.txt";
         try (FileWriter writer = new FileWriter(fileName)) {

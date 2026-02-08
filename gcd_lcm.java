@@ -16,5 +16,6 @@ public class gcd_lcm {
         System.out.println(n2);
         int lcm = (o1*o2)/n2;
         System.out.println(lcm);
+        sc.close();
     }
 }

@@ -1,4 +1,4 @@
-package javaprograms;
+
 public class MergeSort {
 
     static void mergeSort(int[] arr, int left, int right) {

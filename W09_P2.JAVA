@@ -48,5 +48,6 @@ public class W09_P2 {
         System.out.println(input + " = " + finalResult);
 
         sc.close();
+        
     }
 }

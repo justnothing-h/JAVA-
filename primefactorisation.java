@@ -14,7 +14,9 @@ public class primefactorisation {
         }
         if(n!=1){
             System.out.print(n);
+
         }
+            sc.close();
     }
 }
 

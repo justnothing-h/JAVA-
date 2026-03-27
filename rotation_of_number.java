@@ -19,6 +19,6 @@ public class rotation_of_number {
         int term2 = n/div;
         int result = (term1 * (int)Math.pow(10,count-k)) + term2;
         System.out.println(result);
-        sc.close();
+        sc .close();
     }
 }

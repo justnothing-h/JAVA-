@@ -20,5 +20,6 @@ public class rotation_of_number {
         int result = (term1 * (int)Math.pow(10,count-k)) + term2;
         System.out.println(result);
         sc .close();
+        
     }
 }

@@ -18,6 +18,8 @@ public class printdigit {
             System.out.println(q);
             n=n%div;
             div = div/10;
+            sc.close();
         }
+        sc.close();
     }
 }

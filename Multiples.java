@@ -14,5 +14,6 @@ public class Multiples {
         int n = sc.nextInt();
         int k = sc.nextInt();
         printmultiples(n,k);
+        
     }
 }

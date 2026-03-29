@@ -10,6 +10,7 @@ public class MergeSort {
 
             merge(arr, left, mid, right);
         }
+        
     }
 
     static void merge(int[] arr, int left, int mid, int right) {
@@ -39,6 +40,8 @@ public class MergeSort {
         while (j < n2)
             arr[k++] = R[j++];
     }
+
+
 
     public static void main(String[] args) {
         int[] arr = {12, 11, 13, 5, 6, 7};

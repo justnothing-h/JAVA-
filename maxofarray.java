@@ -1,6 +1,7 @@
+
 public class maxofarray {
     static int findmax(int[] arr, int i){
-        if (i==arr.length - 1){
+        if (i==arr.length - 1){// base case: if it's the last element, return it
             return arr[i];
         }
 

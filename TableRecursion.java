@@ -1,9 +1,10 @@
 import java.util.Scanner;
 public class TableRecursion{
+
     static void printTable(int num, int i){
         if (i>10)
             return;
-        System.out.println(num +"x"+i+"="+(num*i));
+        System.out.println(num +"x"+i+"="+(num*i)); // print the current multiplication
         printTable(num, i+1);
 
 }

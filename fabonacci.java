@@ -11,6 +11,7 @@ public class fabonacci {
             int c = a + b;
             a= b;
             b= c;
+            sc.close();
         }
     }
 }

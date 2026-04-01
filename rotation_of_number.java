@@ -17,7 +17,7 @@ public class rotation_of_number {
         int div = (int)Math.pow(10,k);
         int term1 = n%div;
         int term2 = n/div;
-        int result = (term1 * (int)Math.pow(10,count-k)) + term2;
+        int result = (term1 * (int)Math.pow(10,count-k)) + term2;// 1234, k=2, count = 4, div = 100, term1 = 34, term2 = 12, result = 3412
         System.out.println(result);
         sc .close();
         

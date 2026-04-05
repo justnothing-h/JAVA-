@@ -12,5 +12,7 @@ public class digit {
         }
         System.out.println(count);
         sc.close();
+
+        
     }
 }

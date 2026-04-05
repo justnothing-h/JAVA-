@@ -21,5 +21,7 @@ public class printdigit {
             sc.close();
         }
         sc.close();
+
+        
     }
 }

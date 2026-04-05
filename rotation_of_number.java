@@ -11,7 +11,7 @@ public class rotation_of_number {
         int temp = n;
         while(temp!= 0 ){
             temp  =temp/10;
-            count ++;
+            count ++; // count is the number of digits in the number
         }
         k = k%count;
         int div = (int)Math.pow(10,k);

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class W11_P3 {
     public static void main(String args[]) {
+
         try {
             Connection conn = null;
             Statement stmt = null;
@@ -14,6 +15,7 @@ public class W11_P3 {
             System.out.print(conn.isClosed());
 
         }
+        
         catch (Exception e) {
             System.out.println(e);
         }

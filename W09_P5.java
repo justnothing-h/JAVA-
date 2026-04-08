@@ -30,7 +30,7 @@ class Point {
 
     public Point(double x, double y) {
 
-        this.x = x;
+        this.x = x;// this keyword is used to refer to the current object
         this.y = y;
 
     }
